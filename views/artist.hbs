@@ -1,14 +1,13 @@
 
- <h1>{{name}}</h1>
+ <h1> Research results</h1>
 <div class="row">
     {{#each items}}
-  <div class="col-md-4">
-    <div class="thumbnail">
+  <div class="col-md-4 ">
+    <div class="thumbnail bg-dark p-2 g-col-6 mt-2">
         <img src="{{images.0.url}}" alt="Lights" style="width:100%" />
         <div class="caption">
-          <p><p>{{name}}</p>
-          <a href="/albums/{{this.id}}">Album</a>
-
+          <p class=" fs-4 text-white">{{name}}</p>
+          <a href="/albums/{{this.id}}" class="btn btn-danger">Visit this channel</a>
         </div>
       </a>
     </div>
